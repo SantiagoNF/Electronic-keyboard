@@ -1,0 +1,100 @@
+.body {
+  /*background-color: rgb(216, 203, 17);*/
+  background-color: rgb(192, 192, 192);
+}
+
+#keyboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin: 100px;
+}
+
+.key {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.key-normal {
+  width: 45px;
+  height: 40px;
+}
+.key-mayus {
+  width: 90px;
+  height: 40px;
+}
+
+.key-shift {
+  width: 70px;
+  height: 40px;
+}
+
+.key-space {
+  width: 500px;
+  height: 50px;
+}
+.key:hover {
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.key-empty {
+  width: 25px;
+  height: 2px;
+  background-color: transparent;
+  color: aliceblue;
+  border-radius: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activated {
+  outline: rgba(255, 0, 0, 0.541) solid 2px;
+}
+
+.input {
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#app {
+  text-align: center;
+}
+
+.input:hover {
+  background-color: rgba(252, 252, 252, 0.26);
+}
+
+/* 
+.input {
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin: center;
+  padding: 2px;
+  border: 2px solid #282885;
+  align-items: center;
+  margin: right 20px;
+}
+
+#keyboard-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 684px;
+  gap: 5px;
+  justify-content: center;
+  margin: 100px;
+}
+*/
